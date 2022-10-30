@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap');
+.card-body {
+  width:80% ;
+  margin: auto;
+  padding: 1em;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 1em;
+  border: 1px solid tomato;
+}
+
+.card-content {
+  
+  width: 400px;
+  margin-top: 1.5em;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+}
+
+.card-title{
+  margin-left: 15px;
+  margin-top: 10px;
+  margin-bottom: 0;
+  font-weight: 400;
+  font-size: 1.9em;
+}
+.card-subtitle {
+  margin-left:15px;
+  font-weight: 100;
+}
+
+.img-card{
+  max-width: 100%;
+  margin: 0px;
+}
+.text{
+  margin-left: 15px;
+  margin-right: 15px;
+  font-weight: 100;
+  text-align: justify;
+}
+.card-button{
+  padding: 10px;
+}
+
+
+
+
+
+
+.button-22 {
+  align-items: center;
+  text-align: center;
+  appearance: button;
+  background-color: #0276FF;
+  border-radius: 8px;
+  border-style: none;
+  box-shadow: rgba(255, 255, 255, 0.26) 0 1px 2px inset;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: flex;
+  flex-direction: row;
+  flex-shrink: 0;
+  font-family: "RM Neue",sans-serif;
+  font-size: 100%;
+  line-height: 1.15;
+  margin: 15px;
+  padding: 10px 21px;
+  text-align: center;
+  text-transform: none;
+  transition: color .13s ease-in-out,background .13s ease-in-out,opacity .13s ease-in-out,box-shadow .13s ease-in-out;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-22:active {
+  background-color: #006AE8;
+}
+
+.button-22:hover {
+  background-color: #1C84FF;
+}

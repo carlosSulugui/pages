@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap');
+.card{
+  max-width: 50%;
+  margin: auto;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+}
+
+
+.video{
+  max-width: 100%;
+}
+
+.title{
+  margin-bottom: 15px;
+  padding: .9em ;
+  font-size: 2em;
+  font-weight: 400;
+
+}
+
+.content{
+  margin: 15px;
+}
